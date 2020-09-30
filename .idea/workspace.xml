@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="30f7a029-9e09-4e85-a607-3dd5201e1128" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="faf71a6f-fb96-4e03-9716-3b24902185b1" />
+  <component name="ProjectId" id="1iDykjMyHr57DbW8XkEBUt2vm8W" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="tierurl" type="Python.DjangoServer" factoryName="Django server">
+      <module name="tierurl" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="30f7a029-9e09-4e85-a607-3dd5201e1128" name="Default Changelist" comment="" />
+      <created>1601456604065</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601456604065</updated>
+      <workItem from="1601456606081" duration="5593000" />
+      <workItem from="1601548240177" duration="3267000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="132" y="89" width="1102" height="598" key="MergeDialog" timestamp="1601548509362">
+      <screen x="0" y="31" width="1366" height="706" />
+    </state>
+    <state x="132" y="89" width="1102" height="598" key="MergeDialog/0.31.1366.706@0.31.1366.706" timestamp="1601548509362" />
+    <state x="316" y="147" width="734" height="477" key="MultipleFileMergeDialog" timestamp="1601548509741">
+      <screen x="0" y="31" width="1366" height="706" />
+    </state>
+    <state x="316" y="147" width="734" height="477" key="MultipleFileMergeDialog/0.31.1366.706@0.31.1366.706" timestamp="1601548509741" />
+    <state width="498" height="445" key="SwitcherDM" timestamp="1601548395066">
+      <screen x="0" y="31" width="1366" height="706" />
+    </state>
+    <state width="498" height="445" key="SwitcherDM/0.31.1366.706@0.31.1366.706" timestamp="1601548395066" />
+    <state x="376" y="128" width="614" height="512" key="find.popup" timestamp="1601548676222">
+      <screen x="0" y="31" width="1366" height="706" />
+    </state>
+    <state x="376" y="128" width="614" height="512" key="find.popup/0.31.1366.706@0.31.1366.706" timestamp="1601548676222" />
+  </component>
+</project>
