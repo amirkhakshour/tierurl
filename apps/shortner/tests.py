@@ -32,3 +32,10 @@ class ShortnerPageTestCase(TestCase):
         assert response.status_code == 201
         response = self.client.post(self.base_url, {'url': self.test_url})
         assert response.status_code == 200
+
+    def test_returns_already_gen_short_urls(self):
+        self.client.post(self.base_url, {'url': self.test_url})
+        short_url_1 = ShortURL.objects.get(url=self.test_url)
+        self.client.post(self.base_url, {'url': self.test_url})
+        short_url_2 = ShortURL.objects.get(url=self.test_url)
+        self.assertEqual(short_url_1.tiny_url, short_url_2.tiny_url)
