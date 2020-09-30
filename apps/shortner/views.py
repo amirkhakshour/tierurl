@@ -1,7 +1,5 @@
-from django.shortcuts import render
-from django.http.response import HttpResponseNotAllowed, HttpResponseBadRequest
-from .services import gen_random_alphanum_string
-
+from django.http.response import HttpResponseNotAllowed, HttpResponseBadRequest, JsonResponse
+from .models import ShortURL
 MESSAGE_INVALID_DATA_PARAMS = b'please send url parameter in your request data.'
 
 
@@ -15,6 +13,11 @@ def url_shortner_page(request):
     if request.POST.get('url', None) is None:
         return HttpResponseBadRequest(MESSAGE_INVALID_DATA_PARAMS)
 
-    template = 'shortner/shortner_page.html'
-    context = {}
-    return render(request, template, context)
+    url_to_shorten = request.POST.get('url')
+
+    short_url, created = ShortURL.objects.get_or_create(url=url_to_shorten)
+
+    return JsonResponse({
+        'url': short_url.url,
+        'tiny_url': short_url.abs_tiny_url,
+    })

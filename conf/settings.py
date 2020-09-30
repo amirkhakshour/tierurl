@@ -119,3 +119,4 @@ STATIC_URL = '/static/'
 # ---------------------------------------------------
 SHORTENED_URL_LENGTH = 5
 INSTALLED_APPS += ['shortner']
+SHORTENED_URL_BASE = 'http://tier.app/'

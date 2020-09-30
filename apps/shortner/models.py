@@ -13,7 +13,11 @@ class ShortURL(models.Model):
 
     def save(self, *args, **kwargs):
         if not self.tiny_url:
-            self.tiny_url = gen_random_alphanum_string()
+            self.tiny_url = gen_random_alphanum_string(settings.SHORTENED_URL_LENGTH)
             while self.__class__.objects.filter(tiny_url=self.tiny_url).exists():
-                self.tiny_url = gen_random_alphanum_string()
+                self.tiny_url = gen_random_alphanum_string(settings.SHORTENED_URL_LENGTH)
         super(ShortURL, self).save(*args, **kwargs)
+
+    @property
+    def abs_tiny_url(self):
+        return f"{settings.SHORTENED_URL_BASE}{self.tiny_url}"
