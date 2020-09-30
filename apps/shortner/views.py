@@ -20,4 +20,4 @@ def url_shortner_page(request):
     return JsonResponse({
         'url': short_url.url,
         'tiny_url': short_url.abs_tiny_url,
-    })
+    }, status=201 if created else 200)
