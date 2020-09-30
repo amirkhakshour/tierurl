@@ -26,3 +26,9 @@ class ShortnerPageTestCase(TestCase):
         self.assertIn('tiny_url', response_json)
         tiny_url = response_json['tiny_url'].rsplit('/', 1)[-1]
         assert tiny_url.isalnum()
+
+    def test_status_code_when_already_exists(self):
+        response = self.client.post(self.base_url, {'url': self.test_url})
+        assert response.status_code == 201
+        response = self.client.post(self.base_url, {'url': self.test_url})
+        assert response.status_code == 200
