@@ -1,5 +1,6 @@
 from django.shortcuts import render
 from django.http.response import HttpResponseNotAllowed, HttpResponseBadRequest
+from .services import gen_random_alphanum_string
 
 MESSAGE_INVALID_DATA_PARAMS = b'please send url parameter in your request data.'
 
